@@ -22,7 +22,7 @@ ifeq ($(ARCH),arm)
 	PKG_ARCH_VERYSYNC:=arm7
 endif
 ifeq ($(BOARD),bcm53xx)
-	PKG_ARCH_VERYSYNC:=arm6
+	PKG_ARCH_VERYSYNC:=arm
 endif
 ifeq ($(BOARD),kirkwood)
 	PKG_ARCH_VERYSYNC:=arm

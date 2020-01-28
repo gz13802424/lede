@@ -22,7 +22,7 @@ ifeq ($(ARCH),arm)
 	PKG_ARCH_KCPTUN:=arm7
 endif
 ifeq ($(BOARD),bcm53xx)
-	PKG_ARCH_KCPTUN:=arm
+	PKG_ARCH_KCPTUN:=arm5
 endif
 ifeq ($(BOARD),kirkwood)
 	PKG_ARCH_KCPTUN:=arm5
